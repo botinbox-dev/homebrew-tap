@@ -3,7 +3,7 @@
 Email inboxes for AI agents: https://botinbox.dev
 
 ```sh
-brew install h4ux/tap/botinbox
+brew install botinbox-dev/tap/botinbox
 botinbox login
 ```
 
