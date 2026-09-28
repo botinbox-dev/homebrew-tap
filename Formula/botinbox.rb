@@ -8,27 +8,27 @@
 class Botinbox < Formula
   desc "Email inboxes for AI agents, from your terminal"
   homepage "https://botinbox.dev/app/cli"
-  version "0.1.0"
+  version "0.2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/botinbox-dev/homebrew-tap/releases/download/cli-v0.1.0/botinbox_0.1.0_darwin_arm64.tar.gz"
-      sha256 "bca8f77f98ed9c0f4f885671e97d56e27f3e97f7ce22a9b02f3243a7101ab3b4"
+      url "https://github.com/botinbox-dev/homebrew-tap/releases/download/cli-v0.2.0/botinbox_0.2.0_darwin_arm64.tar.gz"
+      sha256 "85120c4c033d5074d6fef52cfd8f3dce367d9b3ed048611bd182a06ab0e26149"
     end
     on_intel do
-      url "https://github.com/botinbox-dev/homebrew-tap/releases/download/cli-v0.1.0/botinbox_0.1.0_darwin_amd64.tar.gz"
-      sha256 "c0ed347e0c333d219f47fe0a791a50ef2940fe770a29e96caaf9f9d91b7bdcbc"
+      url "https://github.com/botinbox-dev/homebrew-tap/releases/download/cli-v0.2.0/botinbox_0.2.0_darwin_amd64.tar.gz"
+      sha256 "24b8f98ce67f260b6fc038038dc0c5e873ed7829f96357010ba05096746c6cdb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/botinbox-dev/homebrew-tap/releases/download/cli-v0.1.0/botinbox_0.1.0_linux_arm64.tar.gz"
-      sha256 "bf4c2d222357a07ae2e08d4e81616e6873cff18173193a42745e6e083faffdd0"
+      url "https://github.com/botinbox-dev/homebrew-tap/releases/download/cli-v0.2.0/botinbox_0.2.0_linux_arm64.tar.gz"
+      sha256 "172fd5f2500027db82818ed1dc8db7ede6ab34c26ff3fedd9aa6b2fde4104182"
     end
     on_intel do
-      url "https://github.com/botinbox-dev/homebrew-tap/releases/download/cli-v0.1.0/botinbox_0.1.0_linux_amd64.tar.gz"
-      sha256 "d185f3081a05cf367adb35add41acd0d2436e87cda5535e382742a5f0a762846"
+      url "https://github.com/botinbox-dev/homebrew-tap/releases/download/cli-v0.2.0/botinbox_0.2.0_linux_amd64.tar.gz"
+      sha256 "e78c370c417de7ec9e7463d555d6ef2c0e84ea17c96aa715585624a0709bcaae"
     end
   end
 
